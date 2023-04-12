@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+/* .cards {
+    margin: 10px 10px;
+} */
+.App {
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(233,233,233);
+    border-radius: 10px;
+    padding: 5px;
+    height: 3em;
+    margin-bottom: 1.5em;
+}
+.search i{
+  padding: 15px;
+}
+.search input{
+    border: none;
+    background-color: rgb(233,233,233);
+    width: 100%;
+    margin: 0 10px;
+}
+.search-icon{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.search input:focus{
+    outline: none;
+}
+
+.card-row {
+    /* gap: 3px; */
+}
+
+.cards_in_app {
+    background-color: #dfe6e9;
+    transition: 0.6s top ease-in-out;
+    position: relative;
+    top: 0;
+}
+
+.cards_in_app:hover {
+    cursor: pointer;
+    position: relative;
+    /* transform: scale(1.1); */
+    top: -20px;
+    transition: 0.2s top ease-in-out;
+}
+
+.main_wrapper {
+    padding: 0px 50px !important;
+}
+
+.search_bar input,
+.type select {
+    border-radius: 0px;
+    outline: none;
+    border: none;
+}
+
+.search_bar input:focus {
+    outline: none;
+    border: none;
+}
+
+.pagination_btn {
+    padding: 0px 100px;
+}
+
+.pagination_btn button {
+    background-image: linear-gradient(284deg, rgb(255, 212, 40) 53.7%, rgb(253, 179, 41) 88.9%);
+    border-radius: 0px;
+    border: 0px;
+    color: #161122;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+@media (max-width:500px) {
+    .btn{
+      display: flex;
+      flex-direction: column;
+      
+    }
+ }
